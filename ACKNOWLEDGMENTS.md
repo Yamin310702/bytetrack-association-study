@@ -10,7 +10,7 @@ The notebooks fetch a pinned official revision and apply disclosed compatibility
 
 TrackEval: https://github.com/JonathonLuiten/TrackEval . The notebooks fetch a pinned revision and record NumPy compatibility changes. Follow the upstream evaluator's license and citation instructions.
 
-MOT17: https://motchallenge.net/data/MOT17/ . Dataset media and ground-truth annotations are not included here. Obtain them from the original publisher and follow their distribution/use terms.
+MOT17: https://motchallenge.net/data/MOT17/ . Selected cropped/annotated comparison clips and keyframes derived from MOT17-02-FRCNN are included under `assets/`, with attribution and transformation details in [docs/visual_examples.md](docs/visual_examples.md). Full source sequences and ground-truth annotation files are not included. Dataset imagery is not covered by the ByteTrack MIT license. Obtain them from the original publisher and follow their distribution/use terms.
 
 ## Project Materials
 

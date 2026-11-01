@@ -52,10 +52,13 @@ Colab 바로 열기: [Baseline 평가](https://colab.research.google.com/github/
 ## 재현 및 해석 자료
 
 - [실험 조건과 재현 절차](docs/reproducibility.md)
-- [시각 사례와 해석 한계](docs/visual_examples.md)
+- [시각 사례와 해석 한계](docs/visual_examples.md): [회복 영상](assets/recovery/comparison.mp4) · [ID 변화 영상](assets/identity_change/comparison.mp4)
 - [향후 개선 계획](docs/future_work.md)
 - [결과 파일의 출처](results/PROVENANCE.md)
-- [원 코드와 제3자 자료의 출처](ACKNOWLEDGEMENTS.md)
+- [원 코드와 제3자 자료의 출처](ACKNOWLEDGMENTS.md)
+
+선택한 비교 영상 2개와 키프레임 4개를 `assets/`에 제공합니다. 전체 원 데이터, 정답 주석 파일, 모델 가중치, 전체 원본 영상, 전체 결과 ZIP은 포함하지 않습니다.
+
 
 ## 참고자료
 

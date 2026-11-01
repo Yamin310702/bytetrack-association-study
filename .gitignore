@@ -7,6 +7,7 @@
 !/results/
 !/licenses/
 !/notebooks/
+!/assets/
 /notebooks/*
 !/notebooks/ByteTrack_Official_First_Run_Colab.ipynb
 !/notebooks/ByteTrack_Official_MOT17_HalfVal_Colab.ipynb
@@ -26,3 +27,7 @@
 **/*.pth.tar
 **/*.mp4
 **/*.mov
+
+# Selected, documented comparison clips only.
+!/assets/recovery/comparison.mp4
+!/assets/identity_change/comparison.mp4

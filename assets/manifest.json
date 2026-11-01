@@ -1,0 +1,45 @@
+{
+  "source_archive": "ByteTrack_identity_change_example.zip",
+  "source_archive_sha256": "d463a27e53419d6f46a84bdb25cf3fcf84a254bea5391ccdbc1b09d30082e1d6",
+  "source_experiment": "Official ByteTrack controlled comparison",
+  "media_unchanged": true,
+  "sequence": "MOT17-02-FRCNN",
+  "files": [
+    {
+      "path": "assets/recovery/comparison.mp4",
+      "source_member": "visual_outputs/help_candidate_MOT17-02-FRCNN_original_373_detail.mp4",
+      "bytes": 864227,
+      "sha256": "ee3bdb6e461475753fed82f9449918d02ad8eca74d72e6efd215497e9faf9335"
+    },
+    {
+      "path": "assets/recovery/frame_373.png",
+      "source_member": "visual_outputs/help_candidate_MOT17-02-FRCNN_original_373_validation_0072.png",
+      "bytes": 632164,
+      "sha256": "ea5055ff9827ee4796f05875bf58ea360cf18ff1970677a8499d7dd9bc8804ed"
+    },
+    {
+      "path": "assets/identity_change/comparison.mp4",
+      "source_member": "visual_outputs/identity_change_candidate_MOT17-02-FRCNN_original_357_detail.mp4",
+      "bytes": 3665721,
+      "sha256": "c2577ea41c9e715907b93b5ab4e185c3d689bc843af3c9db471b8a1a4ea8f4ea"
+    },
+    {
+      "path": "assets/identity_change/frame_350.png",
+      "source_member": "visual_outputs/identity_change_candidate_MOT17-02-FRCNN_original_357_validation_0049.png",
+      "bytes": 1942916,
+      "sha256": "91309491c09c12de18a4b3e0b524cd3532cfcb1097cb577b6e7e06a44bf28de0"
+    },
+    {
+      "path": "assets/identity_change/frame_357.png",
+      "source_member": "visual_outputs/identity_change_candidate_MOT17-02-FRCNN_original_357_validation_0056.png",
+      "bytes": 1933859,
+      "sha256": "fd2ec0bb4c73b159c97e25ca51a469cbaee368ae93f75335029e2b8a1f349b49"
+    },
+    {
+      "path": "assets/identity_change/frame_365.png",
+      "source_member": "visual_outputs/identity_change_candidate_MOT17-02-FRCNN_original_357_validation_0064.png",
+      "bytes": 1943816,
+      "sha256": "d541de09b426add13dd2b3647feafd8ded624d806b873081ec0f3161c7d5b269"
+    }
+  ]
+}
