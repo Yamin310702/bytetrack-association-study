@@ -1,0 +1,6 @@
+{
+  "single_assignment_change": true,
+  "weak_detection_recovery_check": true,
+  "no_low_confidence_initialization": true,
+  "high_only_input_equivalence": true
+}

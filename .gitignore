@@ -1,0 +1,28 @@
+# Publish only the project files explicitly listed below.
+/*
+!/.gitignore
+!/README.md
+!/THIRD_PARTY_NOTICES.md
+!/docs/
+!/results/
+!/licenses/
+!/notebooks/
+/notebooks/*
+!/notebooks/ByteTrack_Official_First_Run_Colab.ipynb
+!/notebooks/ByteTrack_Official_MOT17_HalfVal_Colab.ipynb
+!/notebooks/ByteTrack_Official_Controlled_Comparison_Colab.ipynb
+!/notebooks/ByteTrack_Visual_Examples_Colab.ipynb
+!/notebooks/ByteTrack_Identity_Change_Example_Colab.ipynb
+
+# Runtime inputs and generated media remain local.
+**/__pycache__/
+**/.DS_Store
+**/.env
+**/.env.*
+**/*.zip
+**/*.npz
+**/*.pth
+**/*.pt
+**/*.pth.tar
+**/*.mp4
+**/*.mov

@@ -1,0 +1,170 @@
+{
+  "MOT17-02-FRCNN/full_bytetrack": {
+    "frames": 299,
+    "boxes_written": 7383,
+    "tracker_args": {
+      "track_thresh": 0.6,
+      "track_buffer": 30,
+      "match_thresh": 0.9,
+      "mot20": false
+    },
+    "cache_sha256": "129eef5e259c4acae11990cc0a2072770f2c0622d26a9828716fe2b716ea1ecc",
+    "tracker_seconds": 4.014663532991108
+  },
+  "MOT17-02-FRCNN/high_only": {
+    "frames": 299,
+    "boxes_written": 6512,
+    "tracker_args": {
+      "track_thresh": 0.6,
+      "track_buffer": 30,
+      "match_thresh": 0.9,
+      "mot20": false
+    },
+    "cache_sha256": "129eef5e259c4acae11990cc0a2072770f2c0622d26a9828716fe2b716ea1ecc",
+    "tracker_seconds": 1.1832142380317237
+  },
+  "MOT17-04-FRCNN/full_bytetrack": {
+    "frames": 524,
+    "boxes_written": 23886,
+    "tracker_args": {
+      "track_thresh": 0.6,
+      "track_buffer": 30,
+      "match_thresh": 0.9,
+      "mot20": false
+    },
+    "cache_sha256": "721502d3c0ca7943535d003d651b18dc53afb0b32d901b0f098fc1f91fb3fd59",
+    "tracker_seconds": 2.835544290022881
+  },
+  "MOT17-04-FRCNN/high_only": {
+    "frames": 524,
+    "boxes_written": 23058,
+    "tracker_args": {
+      "track_thresh": 0.6,
+      "track_buffer": 30,
+      "match_thresh": 0.9,
+      "mot20": false
+    },
+    "cache_sha256": "721502d3c0ca7943535d003d651b18dc53afb0b32d901b0f098fc1f91fb3fd59",
+    "tracker_seconds": 2.7458290990034584
+  },
+  "MOT17-05-FRCNN/full_bytetrack": {
+    "frames": 418,
+    "boxes_written": 2890,
+    "tracker_args": {
+      "track_thresh": 0.6,
+      "track_buffer": 14,
+      "match_thresh": 0.9,
+      "mot20": false
+    },
+    "cache_sha256": "141e4a0258dc227593c5958826846e21e1ed3deb7bf94439a6ff36dc67f87126",
+    "tracker_seconds": 0.5731445369729045
+  },
+  "MOT17-05-FRCNN/high_only": {
+    "frames": 418,
+    "boxes_written": 2725,
+    "tracker_args": {
+      "track_thresh": 0.6,
+      "track_buffer": 14,
+      "match_thresh": 0.9,
+      "mot20": false
+    },
+    "cache_sha256": "141e4a0258dc227593c5958826846e21e1ed3deb7bf94439a6ff36dc67f87126",
+    "tracker_seconds": 0.5988078709942783
+  },
+  "MOT17-09-FRCNN/full_bytetrack": {
+    "frames": 262,
+    "boxes_written": 2425,
+    "tracker_args": {
+      "track_thresh": 0.6,
+      "track_buffer": 30,
+      "match_thresh": 0.9,
+      "mot20": false
+    },
+    "cache_sha256": "c98838780ca73a9758b5d0904112ca91f3cb5067f496e442670ba28d20dbc495",
+    "tracker_seconds": 0.4103548169878195
+  },
+  "MOT17-09-FRCNN/high_only": {
+    "frames": 262,
+    "boxes_written": 2311,
+    "tracker_args": {
+      "track_thresh": 0.6,
+      "track_buffer": 30,
+      "match_thresh": 0.9,
+      "mot20": false
+    },
+    "cache_sha256": "c98838780ca73a9758b5d0904112ca91f3cb5067f496e442670ba28d20dbc495",
+    "tracker_seconds": 0.40208518199324317
+  },
+  "MOT17-10-FRCNN/full_bytetrack": {
+    "frames": 326,
+    "boxes_written": 4780,
+    "tracker_args": {
+      "track_thresh": 0.6,
+      "track_buffer": 30,
+      "match_thresh": 0.9,
+      "mot20": false
+    },
+    "cache_sha256": "666200be462aaca42ae47a9d8a56dfd40f7645ed897b75d320f8c17abacbc08f",
+    "tracker_seconds": 0.7701007669820683
+  },
+  "MOT17-10-FRCNN/high_only": {
+    "frames": 326,
+    "boxes_written": 4404,
+    "tracker_args": {
+      "track_thresh": 0.6,
+      "track_buffer": 30,
+      "match_thresh": 0.9,
+      "mot20": false
+    },
+    "cache_sha256": "666200be462aaca42ae47a9d8a56dfd40f7645ed897b75d320f8c17abacbc08f",
+    "tracker_seconds": 0.6930817840038799
+  },
+  "MOT17-11-FRCNN/full_bytetrack": {
+    "frames": 449,
+    "boxes_written": 4187,
+    "tracker_args": {
+      "track_thresh": 0.6,
+      "track_buffer": 30,
+      "match_thresh": 0.9,
+      "mot20": false
+    },
+    "cache_sha256": "2b90f8016ccf0e2b29f134884abd170997a495fb721502f85523f553c3576b16",
+    "tracker_seconds": 0.7465633189967775
+  },
+  "MOT17-11-FRCNN/high_only": {
+    "frames": 449,
+    "boxes_written": 3908,
+    "tracker_args": {
+      "track_thresh": 0.6,
+      "track_buffer": 30,
+      "match_thresh": 0.9,
+      "mot20": false
+    },
+    "cache_sha256": "2b90f8016ccf0e2b29f134884abd170997a495fb721502f85523f553c3576b16",
+    "tracker_seconds": 0.7020111779565923
+  },
+  "MOT17-13-FRCNN/full_bytetrack": {
+    "frames": 374,
+    "boxes_written": 2602,
+    "tracker_args": {
+      "track_thresh": 0.6,
+      "track_buffer": 25,
+      "match_thresh": 0.9,
+      "mot20": false
+    },
+    "cache_sha256": "0fbb5814a938eeaebe13e7fa5b81ae205c0dcbaf3c55c18a734914751fba2600",
+    "tracker_seconds": 0.5426408210278169
+  },
+  "MOT17-13-FRCNN/high_only": {
+    "frames": 374,
+    "boxes_written": 2503,
+    "tracker_args": {
+      "track_thresh": 0.6,
+      "track_buffer": 25,
+      "match_thresh": 0.9,
+      "mot20": false
+    },
+    "cache_sha256": "0fbb5814a938eeaebe13e7fa5b81ae205c0dcbaf3c55c18a734914751fba2600",
+    "tracker_seconds": 0.4915490509902156
+  }
+}

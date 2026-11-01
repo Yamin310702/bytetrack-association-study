@@ -1,0 +1,51 @@
+{
+  "MOT17-02-FRCNN": {
+    "cache_sha256": "129eef5e259c4acae11990cc0a2072770f2c0622d26a9828716fe2b716ea1ecc",
+    "boxes": 24954,
+    "weak_candidates": 7117,
+    "reused": false,
+    "detector_wall_seconds": 50.789892550999866
+  },
+  "MOT17-04-FRCNN": {
+    "cache_sha256": "721502d3c0ca7943535d003d651b18dc53afb0b32d901b0f098fc1f91fb3fd59",
+    "boxes": 27965,
+    "weak_candidates": 2158,
+    "reused": false,
+    "detector_wall_seconds": 88.39741211900036
+  },
+  "MOT17-05-FRCNN": {
+    "cache_sha256": "141e4a0258dc227593c5958826846e21e1ed3deb7bf94439a6ff36dc67f87126",
+    "boxes": 8665,
+    "weak_candidates": 805,
+    "reused": false,
+    "detector_wall_seconds": 63.84794853599851
+  },
+  "MOT17-09-FRCNN": {
+    "cache_sha256": "c98838780ca73a9758b5d0904112ca91f3cb5067f496e442670ba28d20dbc495",
+    "boxes": 3380,
+    "weak_candidates": 294,
+    "reused": false,
+    "detector_wall_seconds": 43.28806270200039
+  },
+  "MOT17-10-FRCNN": {
+    "cache_sha256": "666200be462aaca42ae47a9d8a56dfd40f7645ed897b75d320f8c17abacbc08f",
+    "boxes": 13556,
+    "weak_candidates": 2539,
+    "reused": false,
+    "detector_wall_seconds": 53.66435733900107
+  },
+  "MOT17-11-FRCNN": {
+    "cache_sha256": "2b90f8016ccf0e2b29f134884abd170997a495fb721502f85523f553c3576b16",
+    "boxes": 8373,
+    "weak_candidates": 1332,
+    "reused": false,
+    "detector_wall_seconds": 73.35461995100013
+  },
+  "MOT17-13-FRCNN": {
+    "cache_sha256": "0fbb5814a938eeaebe13e7fa5b81ae205c0dcbaf3c55c18a734914751fba2600",
+    "boxes": 4671,
+    "weak_candidates": 740,
+    "reused": false,
+    "detector_wall_seconds": 61.90073647399913
+  }
+}

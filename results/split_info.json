@@ -1,0 +1,65 @@
+{
+  "MOT17-02-FRCNN": {
+    "original_frames": 600,
+    "first_original_frame": 302,
+    "validation_frames": 299,
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "gt_rows": 15430
+  },
+  "MOT17-04-FRCNN": {
+    "original_frames": 1050,
+    "first_original_frame": 527,
+    "validation_frames": 524,
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "gt_rows": 54149
+  },
+  "MOT17-05-FRCNN": {
+    "original_frames": 837,
+    "first_original_frame": 420,
+    "validation_frames": 418,
+    "width": 640,
+    "height": 480,
+    "fps": 14,
+    "gt_rows": 3387
+  },
+  "MOT17-09-FRCNN": {
+    "original_frames": 525,
+    "first_original_frame": 264,
+    "validation_frames": 262,
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "gt_rows": 5761
+  },
+  "MOT17-10-FRCNN": {
+    "original_frames": 654,
+    "first_original_frame": 329,
+    "validation_frames": 326,
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "gt_rows": 8153
+  },
+  "MOT17-11-FRCNN": {
+    "original_frames": 900,
+    "first_original_frame": 452,
+    "validation_frames": 449,
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "gt_rows": 4706
+  },
+  "MOT17-13-FRCNN": {
+    "original_frames": 750,
+    "first_original_frame": 377,
+    "validation_frames": 374,
+    "width": 1920,
+    "height": 1080,
+    "fps": 25,
+    "gt_rows": 5907
+  }
+}

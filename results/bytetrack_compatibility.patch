@@ -1,0 +1,73 @@
+diff --git a/tools/demo_track.py b/tools/demo_track.py
+index 4f4e7dc..1284123 100644
+--- a/tools/demo_track.py
++++ b/tools/demo_track.py
+@@ -284,7 +284,7 @@ def imageflow_demo(predictor, vis_folder, current_time, args):
+                 online_im = img_info['raw_img']
+             if args.save_result:
+                 vid_writer.write(online_im)
+-            ch = cv2.waitKey(1)
++            ch = -1  # Colab has no GUI keyboard window
+             if ch == 27 or ch == ord("q") or ch == ord("Q"):
+                 break
+         else:
+@@ -332,7 +332,7 @@ def main(exp, args):
+         else:
+             ckpt_file = args.ckpt
+         logger.info("loading checkpoint")
+-        ckpt = torch.load(ckpt_file, map_location="cpu")
++        ckpt = torch.load(ckpt_file, map_location="cpu", weights_only=True)
+         # load the model state dict
+         model.load_state_dict(ckpt["model"])
+         logger.info("loaded checkpoint done.")
+diff --git a/yolox/tracker/byte_tracker.py b/yolox/tracker/byte_tracker.py
+index 2d00459..f0d033c 100644
+--- a/yolox/tracker/byte_tracker.py
++++ b/yolox/tracker/byte_tracker.py
+@@ -15,7 +15,7 @@ class STrack(BaseTrack):
+     def __init__(self, tlwh, score):
+ 
+         # wait activate
+-        self._tlwh = np.asarray(tlwh, dtype=np.float)
++        self._tlwh = np.asarray(tlwh, dtype=float)
+         self.kalman_filter = None
+         self.mean, self.covariance = None, None
+         self.is_activated = False
+diff --git a/yolox/tracker/matching.py b/yolox/tracker/matching.py
+index d36a6cf..d8c4372 100644
+--- a/yolox/tracker/matching.py
++++ b/yolox/tracker/matching.py
+@@ -58,13 +58,13 @@ def ious(atlbrs, btlbrs):
+ 
+     :rtype ious np.ndarray
+     """
+-    ious = np.zeros((len(atlbrs), len(btlbrs)), dtype=np.float)
++    ious = np.zeros((len(atlbrs), len(btlbrs)), dtype=float)
+     if ious.size == 0:
+         return ious
+ 
+     ious = bbox_ious(
+-        np.ascontiguousarray(atlbrs, dtype=np.float),
+-        np.ascontiguousarray(btlbrs, dtype=np.float)
++        np.ascontiguousarray(atlbrs, dtype=float),
++        np.ascontiguousarray(btlbrs, dtype=float)
+     )
+ 
+     return ious
+@@ -118,13 +118,13 @@ def embedding_distance(tracks, detections, metric='cosine'):
+     :return: cost_matrix np.ndarray
+     """
+ 
+-    cost_matrix = np.zeros((len(tracks), len(detections)), dtype=np.float)
++    cost_matrix = np.zeros((len(tracks), len(detections)), dtype=float)
+     if cost_matrix.size == 0:
+         return cost_matrix
+-    det_features = np.asarray([track.curr_feat for track in detections], dtype=np.float)
++    det_features = np.asarray([track.curr_feat for track in detections], dtype=float)
+     #for i, track in enumerate(tracks):
+         #cost_matrix[i, :] = np.maximum(0.0, cdist(track.smooth_feat.reshape(1,-1), det_features, metric))
+-    track_features = np.asarray([track.smooth_feat for track in tracks], dtype=np.float)
++    track_features = np.asarray([track.smooth_feat for track in tracks], dtype=float)
+     cost_matrix = np.maximum(0.0, cdist(track_features, det_features, metric))  # Nomalized features
+     return cost_matrix
+ 

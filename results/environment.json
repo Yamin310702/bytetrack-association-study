@@ -1,0 +1,75 @@
+{
+  "byte_revision": "d1bf0191adff59bc8fcfeaa0b33d3d1642552a99",
+  "trackeval_revision": "12c8791b303e0a0b50f753af204249e622d0281a",
+  "checkpoint_sha256": "26cb8d2808664e5068a4c812d53becbc948b47fd6eacf2b45db049ab40c48b1a",
+  "python": "3.13.16 (main, Oct  1 2026, 15:40:24) [GCC 13.3.0]",
+  "torch": "2.11.0+cu130",
+  "torchvision": "0.26.0+cu130",
+  "numpy": "2.1.3",
+  "gpu": "Tesla T4",
+  "variants": [
+    "full_bytetrack",
+    "high_only"
+  ],
+  "sequences": [
+    "MOT17-02-FRCNN",
+    "MOT17-04-FRCNN",
+    "MOT17-05-FRCNN",
+    "MOT17-09-FRCNN",
+    "MOT17-10-FRCNN",
+    "MOT17-11-FRCNN",
+    "MOT17-13-FRCNN"
+  ],
+  "intervention": "Only inds_second assignment changed to an all-False mask in high_only",
+  "shared_settings": {
+    "MOT17-02-FRCNN": {
+      "track_thresh": 0.6,
+      "track_buffer": 30,
+      "match_thresh": 0.9,
+      "mot20": false
+    },
+    "MOT17-04-FRCNN": {
+      "track_thresh": 0.6,
+      "track_buffer": 30,
+      "match_thresh": 0.9,
+      "mot20": false
+    },
+    "MOT17-05-FRCNN": {
+      "track_thresh": 0.6,
+      "track_buffer": 14,
+      "match_thresh": 0.9,
+      "mot20": false
+    },
+    "MOT17-09-FRCNN": {
+      "track_thresh": 0.6,
+      "track_buffer": 30,
+      "match_thresh": 0.9,
+      "mot20": false
+    },
+    "MOT17-10-FRCNN": {
+      "track_thresh": 0.6,
+      "track_buffer": 30,
+      "match_thresh": 0.9,
+      "mot20": false
+    },
+    "MOT17-11-FRCNN": {
+      "track_thresh": 0.6,
+      "track_buffer": 30,
+      "match_thresh": 0.9,
+      "mot20": false
+    },
+    "MOT17-13-FRCNN": {
+      "track_thresh": 0.6,
+      "track_buffer": 25,
+      "match_thresh": 0.9,
+      "mot20": false
+    }
+  },
+  "split_rule": "Original one-based frames N//2+2 through N; reset tracker at start",
+  "limitations": [
+    "Validation ablation, not unseen leaderboard test performance",
+    "Official modules with documented wrapper and TrackEval",
+    "Both variants advance on empty frames",
+    "Accuracy ablation, not complete computational removal of second-stage code"
+  ]
+}
