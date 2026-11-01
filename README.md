@@ -55,15 +55,7 @@ Colab 바로 열기: [Baseline 평가](https://colab.research.google.com/github/
 - [시각 사례와 해석 한계](docs/visual_examples.md)
 - [향후 개선 계획](docs/future_work.md)
 - [결과 파일의 출처](results/PROVENANCE.md)
-- [원 코드와 제3자 자료의 출처](THIRD_PARTY_NOTICES.md)
-
-## 범위와 투명성
-
-본 자료는 검증·개발 실험입니다. 모든 장면을 이미 관찰했으므로 미관측 테스트 성능이나 통계적 유의성을 주장하지 않습니다. Motion gating은 **계획이며 아직 구현·평가하지 않았습니다**.
-
-실험은 Google Colab에서 실행했습니다. 노트북 구성과 문서 편집에는 AI 도움을 사용했습니다. 수업 제출에는 해당 과목의 AI 사용 규정을 따르며, 원 저자들의 알고리즘과 도구를 명확히 인용해야 합니다.
-
-원 데이터, 정답 주석, 모델 가중치, 원본/주석 영상, 전체 결과 ZIP은 이 저장소에 포함하지 않습니다. 데이터와 모델은 원 배포처에서 받아 각 배포 조건에 따라 사용하세요.
+- [원 코드와 제3자 자료의 출처](ACKNOWLEDGEMENTS.md)
 
 ## 참고자료
 
