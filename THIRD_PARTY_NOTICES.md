@@ -12,6 +12,10 @@ TrackEval: https://github.com/JonathonLuiten/TrackEval . The notebooks fetch a p
 
 MOT17: https://motchallenge.net/data/MOT17/ . Dataset media and ground-truth annotations are not included here. Obtain them from the original publisher and follow their distribution/use terms.
 
-## Project materials
+## Project Materials
 
-Notebook scaffolding, experiment guidance and documentation received AI assistance. Recorded experiments were executed in the user's Google Colab sessions; reported metrics come from their returned experiment archives. Public availability does not establish compliance with a course's rules. Follow the instructor's policy for assessed submissions and independently explain the work.
+This project is based on the original ByteTrack algorithm and implementation by Yifu Zhang et al., using the MOT17 dataset and TrackEval for evaluation.
+
+I ran experiments in Google Colab and compared Full ByteTrack with a high-confidence-only variant. I also examined pedestrian recovery, identity changes, and potential tracking errors using experimental results and visual examples.
+
+AI assistance was used to develop notebook code. I reviewed the code, executed the experiments, and analyzed the results. The original algorithm, dataset, and evaluation tools are credited to their respective authors.
