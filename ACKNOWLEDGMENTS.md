@@ -1,4 +1,4 @@
-# Third-party sources and assistance
+# Acknowledgements and assistance
 
 ## ByteTrack / YOLOX-based official source
 
